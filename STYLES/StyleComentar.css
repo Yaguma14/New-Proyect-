@@ -1,0 +1,157 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../Fondos/Resultado.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para el encabezado */
+h2, h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Contenedor de la publicación */
+.publicacion {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #3498db;
+}
+
+/* Estilo del título de la publicación */
+.publicacion h3 {
+    font-size: 1.5em;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+/* Estilo del contenido de la publicación */
+.publicacion p {
+    font-size: 1.1em;
+    color: #34495e;
+    line-height: 1.5;
+}
+
+/* Estilo para el pie de la publicación */
+.publicacion small {
+    display: block;
+    margin-top: 10px;
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+/* Estilo de los comentarios */
+.comentario {
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 4px solid #e67e22;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del contenido de los comentarios */
+.comentario p {
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+/* Pie de los comentarios */
+.comentario small {
+    display: block;
+    margin-top: 10px;
+    color: #95a5a6;
+    font-size: 0.9em;
+}
+
+/* Botón de enviar comentario */
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #21618c;
+}
+
+/* Estilo de los formularios */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 1.1em;
+    resize: none;
+}
+
+/* Mensajes de éxito y error */
+.success {
+    background-color: #dff9fb;
+    color: #1e8449;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.error {
+    background-color: #ffcccc;
+    color: #e74c3c;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el enlace de regresar */
+p a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+p a:hover {
+    background-color: #c0392b;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .publicacion h3, h2, h3 {
+        font-size: 1.3em;
+    }
+
+    .comentario p {
+        font-size: 1em;
+    }
+}

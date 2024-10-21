@@ -1,0 +1,118 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../Fondos/colegio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para el encabezado */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Fondo blanco para mejorar la visibilidad del texto */
+.texto-con-cuadro {
+    background-color: rgba(255, 0, 0, 0.8); /* Fondo blanco semitransparente */
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Contenedor de cada publicación */
+.publicacion {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #3498db;
+}
+
+/* Estilo del título de las publicaciones */
+.publicacion h4 {
+    font-size: 1.5em;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+/* Estilo del contenido de las publicaciones */
+.publicacion p {
+    font-size: 1.1em;
+    color: #34495e;
+    line-height: 1.5;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Estilo para el pie de cada publicación */
+.publicacion small {
+    display: block;
+    margin-top: 10px;
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+/* Botón para votar */
+.mensaje {
+    background-color: #dff9fb;
+    color: #1e8449;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Mensaje de advertencia o confirmación */
+.mensaje {
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+/* Estilo para el enlace de cerrar sesión */
+p a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+p a:hover {
+    background-color: #c0392b;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .publicacion h4 {
+        font-size: 1.3em;
+    }
+
+    .publicacion p {
+        font-size: 1em;
+    }
+}
